@@ -1,2 +1,2 @@
-# GSBBSR-Site
-Website of GirlScript Bhubaneswar Chapter
+# GirlScript-Bhubaneswar 
+This is the website of GirlScript Bhubaneswar Chapter.
