@@ -140,3 +140,20 @@ const injectInitiavesCards = () => {
 injectInitiavesCards();
 injectTrendsCards();
 
+// terminal effect on the hero text 
+var typed = new Typed('#typed', {
+	strings: [
+	  'Web Developers.', 
+	  'UI/UX Designers.',
+	  'Android Developers.',
+	  'Machine Learners.',
+	  'Content Writers.',
+	  'and Much More...'
+	],
+	smartBackspace: true, // Default value
+	typeSpeed: 40,
+	backSpeed: 25,
+	loop: true,
+	loopCount: Infinity,
+	startDelay: 3000,
+	});

@@ -435,6 +435,47 @@ a.home {
 	font-weight: 700;
 	margin-bottom: 12px;
 }
+
+/*-----------------
+Hero figure section
+-------------------*/
+.hero-fig-button{
+	text-decoration: none;
+	font-size: 23px;
+	border: 3px solid var(--theme-color);
+	padding: 11px 12px;
+	position: relative;
+	overflow: hidden;
+	display:inline-block;
+	margin: 0;
+	min-width: 0;
+	min-height: 0;
+	border-radius: 0.55rem;
+}
+
+.hero-fig-button:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: var(--theme-color);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	transform: rotate(-90deg);
+	transform-origin: bottom left;
+	transition: all 0.4s;
+	
+}
+
+.hero-fig-button:hover::before{
+	transform: rotate(0deg);
+}
+
+.hero-fig-button:hover{
+	color: var(--font-color)!important;
+}
+
 /*-----------------
 Parallax section
 -------------------*/
