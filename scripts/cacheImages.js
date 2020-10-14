@@ -21,6 +21,7 @@ async function getData() {
 		'/assets/Images/achievement/ach1.jpg',
 		'/assets/Images/achievement/ach2.jpg',
 		'/assets/Images/achievement/ach3.jpg',
+		'/assets/Images/Front-img/Parallax.jpg',
 		'/assets/Images/contact/contact.png'
 	];
 
