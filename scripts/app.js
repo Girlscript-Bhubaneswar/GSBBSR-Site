@@ -6,10 +6,10 @@ let header = $(`
   <div id="myNav" class="fullScreen-navigation">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="navigation-content" id="smallnav">
-          <a class="active home" href="index.html">HOME</a>
+		  <a class="active home" href="index.html">HOME</a>
+		  <a href="achievements.html">ABOUT US</a>
           <a href="announcements.html">ANNOUNCEMENTS</a>
           <a href="team.html">OUR TEAM</a>
-		  <a href="achievements.html">OUR ACHIEVEMENTS</a>
 		  <a href="blogs.html">BLOGS</a>
 		  <a href="contactUs.html">CONTACT US</a>
 		  <div id="themeChangeButtonSmallScreen">
@@ -24,13 +24,13 @@ let header = $(`
 		  <a class="nav-link active home"  href="index.html"><span>HOME</span></a>
 		</li>
 		<li class="nav-item">
+		  <a class="nav-link" href="achievements.html"><span>ABOUT US</span></a>
+	    </li>
+		<li class="nav-item">
 		  <a class="nav-link" href="announcements.html"><span>ANNOUNCEMENTS</span></a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link" href="team.html"><span>OUR TEAM</span></a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="achievements.html"><span>OUR ACHIEVEMENTS</span></a>
 		</li>
 		  <li class="nav-item">
 			<a class="nav-link" href="blogs.html"><span>BLOGS</span></a>
@@ -71,25 +71,6 @@ let footer = $(`
 
 
  <g class="gooeff" filter="url(#goo)">
- <circle class="drop drop1" cx="20" cy="2" r="8.8"  />
- <circle class="drop drop2" cx="25" cy="2.5" r="7.5"  />
- <circle class="drop drop3" cx="16" cy="2.8" r="9.2"  />
- <circle class="drop drop4" cx="18" cy="2" r="8.8"  />
- <circle class="drop drop5" cx="22" cy="2.5" r="7.5"  />
- <circle class="drop drop6" cx="26" cy="2.8" r="9.2"  />
- <circle class="drop drop1" cx="5" cy="4.4" r="8.8"  />
- <circle class="drop drop2" cx="5" cy="4.1" r="7.5"  />
- <circle class="drop drop3" cx="8" cy="3.8" r="9.2"  />
- <circle class="drop drop4" cx="3" cy="4.4" r="8.8"  />
- <circle class="drop drop5" cx="7" cy="4.1" r="7.5"  />
- <circle class="drop drop6" cx="10" cy="4.3" r="9.2"  />
- 
- <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"  />
- <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"  />
- <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"  />
-   <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"  />
- <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"  />
- <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"  />
  <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
 </g>  
 
@@ -116,10 +97,10 @@ let footer = $(`
    <center>
 
 		<div class="social-media">
-		  <a class="fa fa-twitter"  href="https://twitter.com/girlscriptch"></a>
-		  <a class="fa fa-instagram" href="https://www.instagram.com/girlscriptchennai/"></a>
-		  <a class="fa fa-github" href="https://github.com/girlscriptchennai"></a>
-		  <a class="fa fa-linkedin" href="https://www.linkedin.com/company/girlscript-chennai/"></a>
+		  <a class="fa fa-twitter"  href="https://twitter.com/girlscriptbbsr?s=08"></a>
+		  <a class="fa fa-instagram" href="https://instagram.com/girlscriptbbsr?igshid=13fw6wglzormd"></a>
+		  <a class="fa fa-github" href="https://github.com/Girlscript-Bhubaneswar"></a>
+		  <a class="fa fa-linkedin" href="https://www.linkedin.com/company/girlscriptbbsr"></a>
 		</div>
 		  <h6 class="footer-h3">Made with <i class="fa fa-heart" style="color:red;"></i></h6>
 	</center>
