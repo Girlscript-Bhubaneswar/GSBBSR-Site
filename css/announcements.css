@@ -34,7 +34,6 @@ body {
 }
 
 .upcoming-events {
-	padding-top: 5%;
 	background-color: var(--bg1-color);
 }
 
@@ -301,7 +300,7 @@ h5 {
 	font-weight: 300;
 }
 
-.card {
+.r-events-card {
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 300px;
@@ -326,7 +325,7 @@ h5 {
 	font-family: 'Comfortaa', sans-serif;
 }
 
-.card-image {
+.r-events-card .card-image {
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
 	grid-area: image;
@@ -334,7 +333,7 @@ h5 {
 	grid-column: 1;
 }
 
-.card-text {
+.r-events-card .card-text {
 	-ms-grid-row: 2;
 	-ms-grid-column: 1;
 	grid-area: text;
@@ -342,7 +341,7 @@ h5 {
 	grid-column: 1;
 }
 
-.card-stats {
+.r-events-card .card-stats {
 	-ms-grid-row: 3;
 	-ms-grid-column: 1;
 	grid-area: stats;
@@ -353,31 +352,31 @@ h5 {
 	grid-column: 1;
 }
 
-.card-image {
+.r-events-card .card-image {
 	grid-area: image;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
 
-.card-image img {
+.r-events-card .card-image img {
 	height: 250px;
 	width: 270px;
 	border-radius: 10px;
 	margin-top: 10px;
 }
 
-.card-text {
+.r-events-card .card-text {
 	grid-area: text;
 	margin: 25px;
 }
 
-.card-text p {
+.r-events-card .card-text p {
 	font-family: 'Quicksand', sans-serif;
 	color: grey;
 	font-size: 14.9px;
 }
 
-.card-text h2 {
+.r-events-card .card-text h2 {
 	margin-top: 30px;
 	font-size: 28px;
 	color: var(--font-color);
@@ -393,14 +392,14 @@ h5 {
 	background-color: var(--box-clr);
 }
 
-.card:hover {
+#eventCards .card:hover {
 	-webkit-transform: scale(1.15);
 	-ms-transform: scale(1.15);
 	transform: scale(1.15);
 	-webkit-box-shadow: var(--box-shadow);
 	box-shadow: var(--box-shadow);
 }
-.card:before {
+#eventCards .card:before {
 	content: '';
 	position: absolute;
 	z-index: -1;
@@ -423,13 +422,13 @@ h5 {
 	transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
 
-.card:hover:before {
+#eventCards .card:hover:before {
 	-webkit-transform: scale(22);
 	-ms-transform: scale(22);
 	transform: scale(22);
 }
 
-.card {
+#eventCards .card {
 	-webkit-transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	transition: 0.5s ease;
@@ -437,7 +436,7 @@ h5 {
 	margin: 30px;
 }
 
-.card-btn {
+#eventCards .card-btn {
 	background: var(--theme-color);
 	color: var(--btn-text);
 	font-weight: bold;
@@ -451,7 +450,7 @@ h5 {
 	font-family: 'Comfortaa';
 }
 
-.card-btn:hover {
+#eventCards .card-btn:hover {
 	box-shadow: var(--btn-shadow);
 	-webkit-box-shadow: var(--btn-shadow);
 	color: var(--btn-hover);
@@ -481,19 +480,19 @@ h5 {
 }
 
 @media only screen and (max-width: 340px) {
-	.card-image img {
+	#eventCards .card-image img {
 		margin-right: 2.5rem;
 		margin-top: 5px;
 		height: 240px;
 		width: 250px;
 	}
 
-	.card-text {
+	#eventCards .card-text {
 		margin-right: 4rem;
 		margin-top: 1rem;
 	}
 
-	.card-btn {
+	#eventCards .card-btn {
 		padding-top: 10px;
 	}
 }
