@@ -1,49 +1,26 @@
 const announcementTimeline = [
 	{
-		eventName: 'Girlscript Contributors Week',
-		eventDescription: `It is a meetup where everyone who are a part of Girlscript will gather and share their
-							experience.`,
-		eventDate: 'June 20, 2020',
-		eventPageLink: './event1.html'
-	},
-	{
-		eventName: 'Code Camp',
-		eventDescription: `It is a coding camp where everyone can participate and learn about different technologies.`,
-		eventDate: 'May 20, 2020',
-		eventPageLink: './event1.html'
-	},
-	{
-		eventName: 'Code Camp',
-		eventDescription: `It is a coding camp where everyone can participate and learn about different technologies.`,
-		eventDate: 'May 20, 2020',
-		eventPageLink: './event1.html'
+		eventName: 'Web Development Roadmap',
+		eventDescription: `We will be beginning with our web development track, with guest speaker Praveen Kumar to guide you on the road to full stack development.`,
+		eventDate: 'November 28, 2020',
+		eventPageLink: 'https://www.instagram.com/p/CH-KZAcpVfB/'
 	}
 ];
 
 const recentEventsDetails = [
 	{
-		coverImage: 'assets/Images/announcement/producthunt.png',
-		eventName: 'Product Hunt',
-		altName: 'Product Hunt Logo',
-		eventDescription: `We are feeling much happy to announce Product Hunt as out official In-Kind partner.
-                                Thankyou for being with Girlscript and helping it make a success.`,
-		referencePage: '#!'
+		coverImage: 'assets/Images/index/power_of_linkedin.jpg',
+		eventName: 'Power of Linkedin',
+		altName: 'Power_of_linkedin',
+		eventDescription: `With many people losing their jobs and internships, networking on linkedin for job opportunities has become ever more important.`,
+		referencePage: 'https://www.instagram.com/p/CBz-96SJCQw/?igshid=orwi56ywfjcl'
 	},
 	{
-		coverImage: 'assets/Images/announcement/contributors.png',
-		eventName: 'Contributions',
-		altName: 'Contributors Illustration',
-		eventDescription: `We are extremely elated to see so many participants coming up with different skills and
-								new ways of approaching solution and contribute to the project.`,
-		referencePage: '#!'
-	},
-	{
-		coverImage: 'assets/Images/announcement/DU-Express.png',
-		eventName: 'DU Express',
-		altName: 'DU Express Logo',
-		eventDescription: `We would like to thank DU Express (@DuExpress) to be our Media Partner for GirlScript
-								Summer Of Code 2020.`,
-		referencePage: '#!'
+		coverImage: 'assets/Images/index/intro_to_blockchain.jpg',
+		eventName: 'Intro to Blockchain',
+		altName: 'intro_to_blockchain',
+		eventDescription: `To help you explore the vast ocean of computer science, we are organising a session "Intro to Blockchain" ...`,
+		referencePage: 'https://www.instagram.com/p/CBFjNn8JT7a/?igshid=10emp6ebw5ef6'
 	}
 ];
 
@@ -63,7 +40,7 @@ const generateTimelineCard = (timelineDetail, position) => {
 								<h5>${eventDate}</h5>
 							</div>
 							<div class="card-stats">
-								<a href="${eventPageLink}" class="btn card-btn card1-text" target="__blank">Read More</a>
+								<a target="_blank" href="${eventPageLink}" class="btn card-btn card1-text" target="__blank">Read More</a>
 							</div>
 						</div>
 					</div>`;
@@ -89,7 +66,7 @@ const generateEventsCard = (eventDetail, fixClassIndex) => {
 							</p>
 						</div>
 						<div class="card-stats">
-							<a href="${referencePage}" class="btn card-btn card1-text card-btn2"> Read More</a>
+							<a target="_blank" href="${referencePage}" class="btn card-btn card1-text card-btn2"> Read More</a>
 						</div>
 					</div>`;
 

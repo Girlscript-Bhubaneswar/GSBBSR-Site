@@ -189,7 +189,7 @@ Nav bar
 
 .navbar {
 	background: var(--nav-bar);
-	color: var(--nav-bar);
+	color: var(--nav-clr);
 	overflow: hidden;
 	-webkit-transition: 0.4s;
 	-o-transition: 0.4s;
@@ -1996,6 +1996,17 @@ input:checked + .slider:before {
 .timeline-container .card-stats {
 	text-align: center;
 	margin-bottom: 5px;
+}
+
+.timeline-container .card-stats .btn{
+	background-color: #e97b31;
+	font-weight: 500;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.timeline-container .card-stats .btn:hover{
+	background-color: #f86f14;
+	box-shadow: 5px 5px 5px 3px #a2a2a2;
 }
 
 .event-part {
