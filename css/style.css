@@ -668,7 +668,7 @@ a.fa-linkedin {
 }
 
 .fa-github:hover {
-	color: #4c3372;
+	color: #252525;
 }
 
 .fa-linkedin:hover {
@@ -1999,14 +1999,17 @@ input:checked + .slider:before {
 }
 
 .timeline-container .card-stats .btn{
-	background-color: #e97b31;
+	background-color: #f55a2b;
 	font-weight: 500;
 	font-family: 'Comfortaa', sans-serif;
+	box-shadow: 1px 1px 5px 1px #a2a2a2;
+	color: var(--font-color);
 }
 
 .timeline-container .card-stats .btn:hover{
-	background-color: #f86f14;
+	background-color: #f55a2b;
 	box-shadow: 5px 5px 5px 3px #a2a2a2;
+	
 }
 
 .event-part {

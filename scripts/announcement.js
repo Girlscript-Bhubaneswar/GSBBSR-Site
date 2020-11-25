@@ -2,7 +2,7 @@ const announcementTimeline = [
 	{
 		eventName: 'Web Development Roadmap',
 		eventDescription: `We will be beginning with our web development track, with guest speaker Praveen Kumar to guide you on the road to full stack development.`,
-		eventDate: 'November 28, 2020',
+		eventDate: 'November 28-29, 2020',
 		eventPageLink: 'https://www.instagram.com/p/CH-KZAcpVfB/'
 	}
 ];

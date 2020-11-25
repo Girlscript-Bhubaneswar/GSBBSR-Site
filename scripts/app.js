@@ -6,12 +6,12 @@ let header = $(`
   <div id="myNav" class="fullScreen-navigation">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="navigation-content" id="smallnav">
-		  <a class="active home" href="index.html">HOME</a>
-		  <a href="achievements.html">ABOUT US</a>
-          <a href="announcements.html">ANNOUNCEMENTS</a>
-          <a href="team.html">OUR TEAM</a>
-		  <a href="blogs.html">BLOGS</a>
-		  <a href="contactUs.html">CONTACT US</a>
+		  <a class="active home" href="./index.html">HOME</a>
+		  <a href="#aboutSection">ABOUT US</a>
+          <a href="#eventsSection">ANNOUNCEMENTS</a>
+          <a href="#team">OUR TEAM</a>
+		  
+		  <a href="#footer">CONTACT US</a>
 		  <div id="themeChangeButtonSmallScreen">
 		  </div>
         </div>
@@ -21,22 +21,20 @@ let header = $(`
 	<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 	  <ul class="navbar-nav ml-5">
 		<li class="nav-item">
-		  <a class="nav-link active home"  href="index.html"><span>HOME</span></a>
+		  <a class="nav-link active home"  href="./index.html"><span>HOME</span></a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="achievements.html"><span>ABOUT US</span></a>
+		  <a class="nav-link" href="#aboutSection"><span>ABOUT US</span></a>
 	    </li>
 		<li class="nav-item">
-		  <a class="nav-link" href="announcements.html"><span>ANNOUNCEMENTS</span></a>
+		  <a class="nav-link" href="#eventsSection"><span>ANNOUNCEMENTS</span></a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="team.html"><span>OUR TEAM</span></a>
+		  <a class="nav-link" href="#team"><span>OUR TEAM</span></a>
 		</li>
-		  <li class="nav-item">
-			<a class="nav-link" href="blogs.html"><span>BLOGS</span></a>
-		</li>
+		  
 		<li class="nav-item">
-			<a class="nav-link" href="contactUs.html"><span>CONTACT US</span></a>
+			<a class="nav-link" href="#footer"><span>CONTACT US</span></a>
 		</li>
 
 	  </ul>
