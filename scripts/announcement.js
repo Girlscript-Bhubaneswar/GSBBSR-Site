@@ -1,10 +1,17 @@
 const announcementTimeline = [
-	// {
-	// 	eventName: 'Web Development Roadmap',
-	// 	eventDescription: `We will be beginning with our web development track, with guest speaker Praveen Kumar to guide you on the road to full stack development.`,
-	// 	eventDate: 'November 28-29, 2020',
-	// 	eventPageLink: 'https://www.instagram.com/p/CH-KZAcpVfB/'
-	// }
+	{
+		eventName: 'Girlscript Contributors Week',
+		eventDescription: `It is a meetup where everyone who are a part of Girlscript will gather and share their
+							experience.`,
+		eventDate: 'June 20, 2020',
+		eventPageLink: './event1.html'
+	},
+	{
+		eventName: 'Code Camp',
+		eventDescription: `It is a coding camp where everyone can participate and learn about different technologies.`,
+		eventDate: 'May 20, 2020',
+		eventPageLink: './event1.html'
+	},
 ];
 
 const recentEventsDetails = [
