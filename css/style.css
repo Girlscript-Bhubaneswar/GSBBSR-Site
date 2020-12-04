@@ -2326,12 +2326,12 @@ h5 {
 .r-events-card .card-text p {
 	font-family: 'Quicksand', sans-serif;
 	color: grey;
-	font-size: 14.9px;
+	font-size: 15px;
 }
 
 .r-events-card .card-text h2 {
-	margin-top: 30px;
-	font-size: 28px;
+	margin-top: 38px;
+	font-size: 24.5px;
 	color: var(--font-color);
 }
 

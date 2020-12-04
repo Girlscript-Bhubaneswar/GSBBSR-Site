@@ -121,10 +121,10 @@
     color: #F47621;
     background: #f7f5ec;
 }
-.card{
+.carousel-item .card{
     border-radius: 7%;
 }
-.card:hover{
+.carousel-item .card:hover{
     transform: scale(1.05);
     box-shadow: 0px 0px 10px 0px #F47621; 
 }
@@ -163,11 +163,6 @@
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
-
-span{
-    color: black;
-}
-
 
 @media (max-width: 720px) {
     .container1 {
