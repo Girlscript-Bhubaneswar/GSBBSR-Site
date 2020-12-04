@@ -390,7 +390,7 @@ a.home {
 
 .join-us {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	color: var(--font-color);
 }
 
@@ -577,7 +577,8 @@ Parallax section
 
 footer {
 	background: var(--footer-bg);
-	padding: 20px 0;
+	padding-top: 50px;
+	padding-bottom: 25px;
 	overflow-x: hidden;
 }
 
@@ -2588,7 +2589,8 @@ h5 {
     background: #f7f5ec;
 }
 .carousel-item .card{
-    border-radius: 7%;
+	border-radius: 7%;
+	background-color: var(--bg2-color);
 }
 .carousel-item .card:hover{
     transform: scale(1.05);
