@@ -1,10 +1,10 @@
 const announcementTimeline = [
-	{
-		eventName: 'Web Development Roadmap',
-		eventDescription: `We will be beginning with our web development track, with guest speaker Praveen Kumar to guide you on the road to full stack development.`,
-		eventDate: 'November 28-29, 2020',
-		eventPageLink: 'https://www.instagram.com/p/CH-KZAcpVfB/'
-	}
+	// {
+	// 	eventName: 'Web Development Roadmap',
+	// 	eventDescription: `We will be beginning with our web development track, with guest speaker Praveen Kumar to guide you on the road to full stack development.`,
+	// 	eventDate: 'November 28-29, 2020',
+	// 	eventPageLink: 'https://www.instagram.com/p/CH-KZAcpVfB/'
+	// }
 ];
 
 const recentEventsDetails = [
@@ -21,6 +21,13 @@ const recentEventsDetails = [
 		altName: 'intro_to_blockchain',
 		eventDescription: `To help you explore the vast ocean of computer science, we are organising a session "Intro to Blockchain" ...`,
 		referencePage: 'https://www.instagram.com/p/CBFjNn8JT7a/?igshid=10emp6ebw5ef6'
+	},
+	{
+		coverImage: 'assets/Images/index/web_dev_bootcamp.jpg',
+		eventName: 'Web Dev Bootcamp',
+		altName: 'web-dev-bootcamp',
+		eventDescription: `Our Web Development track, with guest speaker Praveen Kumar to guide you on the road to full stack development.`,
+		referencePage: 'https://www.instagram.com/p/CH-KZAcpVfB/'
 	}
 ];
 

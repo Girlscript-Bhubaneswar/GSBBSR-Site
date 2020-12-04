@@ -1999,7 +1999,7 @@ input:checked + .slider:before {
 }
 
 .timeline-container .card-stats .btn{
-	background-color: #f55a2b;
+	background-color: #f47621;
 	font-weight: 500;
 	font-family: 'Comfortaa', sans-serif;
 	box-shadow: 1px 1px 5px 1px #a2a2a2;
@@ -2007,7 +2007,7 @@ input:checked + .slider:before {
 }
 
 .timeline-container .card-stats .btn:hover{
-	background-color: #f55a2b;
+	background-color: #f47621;
 	box-shadow: 5px 5px 5px 3px #a2a2a2;
 	
 }
