@@ -70,10 +70,10 @@ let footer = $(`
    <center>
 
 		<div class="social-media">
-		  <a class="fa fa-twitter"  href="https://twitter.com/girlscriptbbsr?s=08"></a>
-		  <a class="fa fa-instagram" href="https://instagram.com/girlscriptbbsr?igshid=13fw6wglzormd"></a>
-		  <a class="fa fa-github" href="https://github.com/Girlscript-Bhubaneswar"></a>
-		  <a class="fa fa-linkedin" href="https://www.linkedin.com/company/girlscriptbbsr"></a>
+		  <a class="fa fa-twitter" target="_blank" href="https://twitter.com/girlscriptbbsr"></a>
+		  <a class="fa fa-instagram" target="_blank" href="https://instagram.com/girlscriptbbsr"></a>
+		  <a class="fa fa-github" target="_blank" href="https://github.com/Girlscript-Bhubaneswar"></a>
+		  <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/company/girlscriptbbsr"></a>
 		</div>
 		  <h6 class="footer-h3">Made with <i class="fa fa-heart" style="color:red;"></i></h6>
 	</center>

@@ -1026,7 +1026,6 @@ a.fa-linkedin {
 }
 .ih-item a {
 	color: var(--font-color);
-	cursor: pointer;
 }
 .ih-item a:hover {
 	text-decoration: none;
@@ -1181,7 +1180,6 @@ a.fa-linkedin {
 	height: 13rem;
 	-webkit-perspective: 62.5rem;
 	perspective: 62.5rem;
-	cursor: pointer;
 	background-color: var(--bg2-color);
 }
 
@@ -1518,7 +1516,6 @@ input:checked + .slider:before {
 	-o-transition: all 1s;
 	transition: all 1s;
 	border-radius: 20px;
-	cursor: pointer;
 	-webkit-box-shadow: var(--box-shadow);
 	box-shadow: var(--box-shadow);
 	padding: 10px;
@@ -1534,7 +1531,6 @@ input:checked + .slider:before {
 	-o-transition: all 1s;
 	transition: all 1s;
 	border-radius: 20px;
-	cursor: pointer;
 	-webkit-box-shadow: var(--box-shadow);
 	box-shadow: var(--box-shadow);
 	padding: 15px;
@@ -2345,7 +2341,6 @@ h5 {
 	-webkit-transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	transition: 0.5s ease;
-	cursor: pointer;
 	margin: 30px;
 }
 
