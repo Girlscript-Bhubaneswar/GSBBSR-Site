@@ -156,4 +156,4 @@ var typed = new Typed('#typed', {
 	loop: true,
 	loopCount: Infinity,
 	startDelay: 3000,
-	});
+});
