@@ -470,8 +470,7 @@ Hero figure section
 	transform: rotate(-90deg);
 	transform-origin: bottom left;
 	transition: all 0.4s;
-	border-radius: 0.35rem;
-	
+	border-radius: 0.35rem;	
 }
 
 .hero-fig-button:hover::before{
