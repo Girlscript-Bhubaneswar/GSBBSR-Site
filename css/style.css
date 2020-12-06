@@ -446,9 +446,9 @@ Hero figure section
 -------------------*/
 .hero-fig-button{
 	text-decoration: none;
-	font-size: 23px;
+	font-size: 22px;
 	border: 3px solid var(--theme-color);
-	padding: 11px 12px;
+	padding: 10px 10px;
 	position: relative;
 	overflow: hidden;
 	display:inline-block;
@@ -470,6 +470,7 @@ Hero figure section
 	transform: rotate(-90deg);
 	transform-origin: bottom left;
 	transition: all 0.4s;
+	border-radius: 0.35rem;
 	
 }
 
