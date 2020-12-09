@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600&family=Baloo+Paaji+2:wght@400;500;600&family=Comfortaa:wght@400;500;600;700&family=Montserrat:wght@100;400;500&family=Quicksand:wght@300;400;500&family=Raleway:wght@300;400;500;600&display=swap');
-
+@font-face{
+	font-family: 'Gilroy';
+	src: url(fonts/Gilroy-Medium.ttf);
+	font-style: normal;
+	
+}
 html {
 	height: 100%;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: Gilroy;
 	-webkit-font-smoothing: antialiased;
 	padding-top: 50px;
 	margin: 0;
@@ -69,7 +74,7 @@ html[data-theme='dark'] {
 
 body {
 	height: 100%;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: Gilroy;
 	-webkit-font-smoothing: antialiased;
 	padding-top: 50px;
 	background-color: var(--bg1-color);
@@ -86,7 +91,7 @@ h6 {
 	margin: 0;
 	color: var(--font-color);
 	font-weight: 400;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: Gilroy;
 }
 
 h1 {
@@ -115,7 +120,7 @@ h6 {
 
 p {
 	font-size: 16px;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: Gilroy;
 	font-weight: 400;
 	line-height: 26px;
 	margin: 0 0 15px 0;
@@ -223,7 +228,7 @@ Nav bar
 	font-weight: bold;
 	font-size: 15px;
 	font-weight: 700;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Gilroy;
 	transition: 0.6s;
 	-o-transition: 0.6s;
 	transition: 0.6s;
@@ -237,7 +242,7 @@ Nav bar
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	padding-right: 1rem;
 	padding-left: 1rem;
 	border-radius: 2rem;
@@ -365,13 +370,13 @@ a.home {
 -----------------------*/
 
 .heading {
-	font-family: 'Baloo Bhaina 2', sans-serif;
+	font-family: Gilroy;
 	font-size: 45px;
 	color: var(--heading-clr);
 }
 
 .about-para {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	letter-spacing: 1px;
 	font-size: 18px;
 }
@@ -384,19 +389,20 @@ a.home {
 }
 
 .about-para + ul {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	letter-spacing: 1px;
 	font-size: 18px;
 }
 
 .join-us {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	font-size: 20px;
+	font-weight: 500;
 	color: var(--font-color);
 }
 
 .achieve-content {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	font-size: 25px;
 }
 
@@ -430,12 +436,12 @@ a.home {
 }
 
 .counter-item .ci-text p {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	letter-spacing: 0.5px;
 }
 
 .counter-item .ci-text h4 {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: Gilroy;
 	font-size: 22px;
 	color: var(--font-color);
 	font-weight: 700;
@@ -597,7 +603,7 @@ footer {
 
 .footer-h2,
 .footer-h3 {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: Gilroy;
 	margin-top: 2%;
 	color: var(--footer-clr);
 }
@@ -638,7 +644,7 @@ a.fa-linkedin {
 }
 
 .btn-spl {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	border-radius: 10em;
 	color: var(--footer-clr);
 	border-color: orangeOrange;
@@ -672,18 +678,18 @@ a.fa-linkedin {
 }
 
 .footer-p {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	margin-top: 1%;
 	color: var(--footer-clr);
 	letter-spacing: 1px;
 }
 .footer-h {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	color: #fff;
 }
 
 .txtb {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
@@ -699,7 +705,7 @@ a.fa-linkedin {
 }
 
 .txtb::placeholder {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 }
 
 .txtb:focus.txtb:invalid {
@@ -878,7 +884,7 @@ a.fa-linkedin {
 }
 
 .counter-item .ci-number {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	font-size: 46px;
 	color: var(--font-color);
 	font-weight: 700;
@@ -963,7 +969,7 @@ a.fa-linkedin {
 	font-weight: 700;
 	background: var(--theme-color);
 	width: 200px;
-	font-family: 'Comfortaa', sans-serif;
+	font-family: Gilroy;
 	border-radius: 10px;
 	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
@@ -1130,7 +1136,7 @@ a.fa-linkedin {
 	transition: all 0.8s ease-in-out;
 }
 .ih-item.circle.effect .info h3 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	color: #ddd;
 	text-transform: uppercase;
 	position: relative;
@@ -1209,7 +1215,7 @@ a.fa-linkedin {
 }
 
 .flip-card-head {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: Gilroy;
 	font-size: 16px;
 	color: var(--theme-color);
 	text-transform: uppercase;
@@ -1279,7 +1285,7 @@ a.fa-linkedin {
 }
 
 .flip-card-detail {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: Gilroy;
 	font-size: 0.85rem;
 	color: white;
 }
@@ -1498,16 +1504,16 @@ input:checked + .slider:before {
 }
 .color {
 	color: var(--font-color);
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 }
 .event-heading {
 	color: var(--theme-color);
-	font-family: 'Baloo Bhaina 2', sans-serif;
+	font-family: Gilroy;
 	font-size: 3rem;
 }
 .event-para {
 	color: var(--font-color);
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 }
 
 /*Card Designing*/
@@ -1571,7 +1577,7 @@ input:checked + .slider:before {
 	overflow-x: hidden;
 }
 .sp-container h2 {
-	font-family: 'Baloo Bhaina 2', sans-serif;
+	font-family: Gilroy;
 	position: absolute;
 	top: 50%;
 	line-height: 100px;
@@ -1922,7 +1928,7 @@ input:checked + .slider:before {
 	text-align: left;
 	letter-spacing: 1px;
 	margin-left: 4px;
-	font-family:'Comfortaa',sans-serif;
+	font-family:Gilroy;
 }
 .hide{
 	opacity:0;
@@ -1943,7 +1949,7 @@ input:checked + .slider:before {
 }
 
 .upcoming {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Gilroy;
 	font-weight: 500;
 }
 
@@ -1959,7 +1965,7 @@ input:checked + .slider:before {
 .timeline-container .card-stats .btn{
 	background-color: var(--theme-color);
 	font-weight: 500;
-	font-family: 'Comfortaa', sans-serif;
+	font-family: Gilroy;
 	color: var(--btn-text);
 	border-radius: 10px;
 }
@@ -2095,7 +2101,7 @@ input:checked + .slider:before {
 .timeline-content p,
 h3,
 h5 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 }
 
 /* Making Timeline Responsive */
@@ -2202,7 +2208,7 @@ h5 {
 
 .recent {
 	font-size: 40px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Gilroy;
 	font-weight: 500;
 }
 
@@ -2232,7 +2238,7 @@ h5 {
 .rh2,
 .rh3 {
 	font-weight: 500;
-	font-family: 'Comfortaa', sans-serif;
+	font-family: Gilroy;
 }
 
 .r-events-card .card-image {
@@ -2281,7 +2287,7 @@ h5 {
 }
 
 .r-events-card .card-text p {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Gilroy;
 	color: grey;
 	font-size: 15px;
 }
@@ -2356,7 +2362,7 @@ h5 {
 	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.2px;
-	font-family: 'Comfortaa';
+	font-family: Gilroy;
 }
 
 #eventCards .card-btn:hover {
@@ -2369,7 +2375,7 @@ h5 {
 .rb2,
 .rb3 {
 	padding-top: 18px;
-	font-family: 'Lato', sans-serif;
+	font-family: Gilroy;
 }
 
 .line {
