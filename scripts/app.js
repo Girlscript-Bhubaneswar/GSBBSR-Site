@@ -6,7 +6,7 @@ let header = $(`
   <div id="myNav" class="fullScreen-navigation">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="navigation-content" id="smallnav">
-		  <a class="active home" href="./index.html">HOME</a>
+		  <a class="active home" href="#hero">HOME</a>
 		  <a href="#aboutSection">ABOUT US</a>
           <a href="#eventsSection">ANNOUNCEMENTS</a>
           <a href="#team">OUR TEAM</a>
@@ -21,7 +21,7 @@ let header = $(`
 	<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 	  <ul class="navbar-nav ml-5">
 		<li class="nav-item">
-		  <a class="nav-link active home"  href="./index.html"><span>HOME</span></a>
+		  <a class="nav-link active home"  href="#hero"><span>HOME</span></a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link" href="#aboutSection"><span>ABOUT US</span></a>

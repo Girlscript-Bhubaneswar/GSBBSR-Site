@@ -1,5 +1,11 @@
 const announcementTimeline = [
 	{
+		eventName: 'Not Another ML Session',
+		eventDescription: `We will be beginning with our Machine Learning track, with guest speaker Koustav Dutta who is Analytics & Cognitive Analyst at *Deloitte India.`,
+		eventDate: 'Dec 19, 2020',
+		eventPageLink: 'https://www.instagram.com/p/CI2ip25Jv3T/'
+	},
+	{
 		eventName: 'Girlscript Contributors Week',
 		eventDescription: `It is a meetup where everyone who are a part of Girlscript will gather and share their
 							experience.`,
