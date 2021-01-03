@@ -5,24 +5,20 @@ async function getData() {
 	const cacheName = `girlscript-${cacheVersion}`;
 	const urls = [
 		'/assets/Images/logo/logo_for_boilerplate_1.png',
-		'/assets/Images/index/ml.jpg',
-		'/assets/Images/index/IoT1.jpg',
-		'/assets/Images/index/program.jpg',
-		'/assets/Images/index/cloud1.jpg',
-		'/assets/Images/index/cs3.jpg',
-		'/assets/Images/index/robot1.jpg',
+		'/assets/Images/logo/logo_for_boilerplate_2.png',
 		'/assets/Images/Front-img/event.jpg',
+		'/assets/Images/Front-img/girl_coding.jpeg',
+		'/assets/Images/Front-img/girl_writing_on_board.jpeg',
+		'/assets/Images/Front-img/parallax.jpg',
+		'/assets/Images/Front-img/temple.jpg',
 		'/assets/Images/logo/Logo1.png',
+		'/assets/Images/logo/Logo2.png',
 		'/assets/Images/logo/logo.png',
 		'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0',
-		'/assets/Images/announcement/producthunt.png',
-		'/assets/Images/announcement/contributors.png',
-		'/assets/Images/announcement/DU-Express.png',
-		'/assets/Images/achievement/ach1.jpg',
-		'/assets/Images/achievement/ach2.jpg',
-		'/assets/Images/achievement/ach3.jpg',
-		'/assets/Images/Front-img/Parallax.jpg',
-		'/assets/Images/contact/contact.png'
+		'/assets/Images/contact/intro_to_blockchain.jpg',
+		'/assets/Images/contact/power_of_linkedin.jpg',
+		'/assets/Images/contact/web_dev_bootcamp.jpg'
+		
 	];
 
 	let cachedData = await getCachedData(cacheName, urls);
@@ -42,7 +38,7 @@ async function getCachedData(cacheName, url) {
 	const cacheStorage = await caches.open(cacheName);
 
 	for (const request of await cacheStorage.keys()) {
-		if (request.url.endsWith('.jpg') || request.url.endsWith('.png') || request.url.startsWith('https')) {
+		if (request.url.endsWith('.jpg') || request.url.endsWith('.png') || request.url.startsWith('https') || request.url.startsWith('.jpeg')) {
 			result.push(await cacheStorage.match(request));
 		}
 	}
