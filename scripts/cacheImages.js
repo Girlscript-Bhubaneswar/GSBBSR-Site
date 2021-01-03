@@ -17,8 +17,7 @@ async function getData() {
 		'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0',
 		'/assets/Images/contact/intro_to_blockchain.jpg',
 		'/assets/Images/contact/power_of_linkedin.jpg',
-		'/assets/Images/contact/web_dev_bootcamp.jpg'
-		
+		'/assets/Images/contact/web_dev_bootcamp.jpg'	
 	];
 
 	let cachedData = await getCachedData(cacheName, urls);
