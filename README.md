@@ -36,7 +36,7 @@ Do you want us to add your favourite feature? Feel free to submit a pull request
     
 3. Navigate to the project directory
 
-    `cd command`
+    `cd GSBBSR-site`
     
 4. Add a reference to the origial repo
 
