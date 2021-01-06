@@ -24,7 +24,8 @@ Goals:
 ## Contribution Guidelines
 Do you want us to add your favourite feature? Feel free to submit a pull request and make the site look awesome. To start contributing, follow the guidelines:
 
-1.[Fork](https://github.com/Girlscript-Bhubaneswar/GSBBSR-Site/fork).
+
+1. [Fork](https://github.com/Girlscript-Bhubaneswar/GSBBSR-Site/fork) this repo.
 
 2. `Clone` the forked repo to your local machine by typing the command in terminal:
 
@@ -44,7 +45,7 @@ Do you want us to add your favourite feature? Feel free to submit a pull request
     
 6. Bring your unique ideas to code
 
-<p align="center"><img width=35% src="![developers-gif-showcase](https://user-images.githubusercontent.com/46455250/103748750-7cdad080-4ffc-11eb-86f1-f205527f8da0.gif)"></p>
+<img width=35% src="![developers-gif-showcase](https://user-images.githubusercontent.com/46455250/103748750-7cdad080-4ffc-11eb-86f1-f205527f8da0.gif)">
 
 7. Track changes
 
