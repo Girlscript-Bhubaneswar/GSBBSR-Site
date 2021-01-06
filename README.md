@@ -48,8 +48,6 @@ Do you want us to add your favourite feature? Feel free to submit a pull request
     
 6. Bring your unique ideas to code
 
-<img width=35% src="![developers-gif-showcase](https://user-images.githubusercontent.com/46455250/103748750-7cdad080-4ffc-11eb-86f1-f205527f8da0.gif)">
-
 7. Track changes
 
     `git status`
