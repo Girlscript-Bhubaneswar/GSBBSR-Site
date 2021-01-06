@@ -70,8 +70,12 @@ Do you want us to add your favourite feature? Feel free to submit a pull request
 
 12. Open a pull request by clicking the Create pull request button. This allows the repo's maintainers to review your contribution. From here, they can merge it if it is good, or they may ask you to make some changes.
 
+## Our Main Contributors
+
+<a href="https://github.com/Girlscript-Bhubaneswar/GSBBSR-Site/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Girlscript-Bhubaneswar/GSBBSR-Site" />
+</a>
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
-
-
